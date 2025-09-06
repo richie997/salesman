@@ -9,9 +9,12 @@
         "./convex": "./convex/*.ts"
     },
     "dependencies": {
+    },
+    "peerDependencies": {
         "convex": "^1.26.2"
     },
     "devDependencies": {
+        "convex": "^1.26.2",
         "@workspace/typescript-config": "workspace:*",
         "typescript": "latest"
     }
